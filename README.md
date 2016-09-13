@@ -9,7 +9,7 @@ Migrations can be done using a live database (Local or Remote) or by providing a
 
 Simply put this is a set of tools for migrating MySql to ElasticSearch
 
-<h2>Issues and Pull Requests.
+<h2>Issues and Pull Requests.</h2>
 As Development is on going some tables may not be migrated correctly to assist with development i would appreciate if you could raise a issue on GitHub, Pull requests will be happily accepted if they are of good quality and improve functionality or fix bugs/issues.<br>
 
 
