@@ -64,8 +64,12 @@ If a unexpected error occured please check the "Common Problems" Section for a s
 
 
 </h2>Additional Information</h2>
+As the tool set is in ongoing development things may not work as expected to speed on development issue reports should be made, the tool is open source and i am more than happy for pull requests to be submitted.<br><br>
 
-<h2>Common Problems<h2>
+I am working on this project in my freetime to add to my portfolio the end goal is the ability to provide full migration of mysql tables to ElasticSearch With both a web interface and commandline tools.<br><br>
+Im more than happy to consider feature requests but currently the main priority is perfecting migration from MySql to ElasticSearch -- if you have a suggestion which will help this process i am happy to forfil your request.<br><br>
+
+<h2>Common Problems</h2>
 
 Unable to access Web Interface while Running the MySql2Elastic on a cloud based service (Amazon EC2, Google Compute)
 > Usually this is to do with the security group on the instance try allowing incoming connection to port 4321 and trying again.
