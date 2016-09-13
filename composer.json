@@ -1,0 +1,13 @@
+{
+    "require": {
+        "symfony/http-foundation": "^3.1",
+        "symfony/routing": "^3.1",
+        "symfony/http-kernel": "^3.1",
+	"ruflin/elastica": "dev-master",
+        "doctrine/doctrine-bundle": "^1.6"
+    },
+    "...": "...",
+    "autoload": {
+        "psr-4": { "": "src/" }
+    }
+}
