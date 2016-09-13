@@ -40,6 +40,10 @@ Additional configuration such as memory limit, maximum execution time, Error log
 
 
 <h2>Usage Command Line</h2>
+I am currently in the proccess of streamlining this process to make it less convoluted allowing migrations in 1-2 commands -- <br><br>
+
+I will update this section as and when i am happy with progress.
+
 
 <h2>Usage Web Interface</h2>
 If you are using the Web interface run the shell script startServer.sh using the command;<br>
