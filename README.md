@@ -61,4 +61,24 @@ After the database has been selected and you have chosen the tables you want to 
 
 Congratulations! If all went well you will have successfully migrated your Mysql Database/Tables and data to ElasticSearch!<br><br>
 If a unexpected error occured please check the "Common Problems" Section for a solution if a solution can not be found please submit a Issue and i will try assist you the best i can.
-</h3>Additional Information</h3>
+
+
+</h2>Additional Information</h2>
+
+<h2>Common Problems<h2>
+
+Unable to access Web Interface while Running the MySql2Elastic on a cloud based service (Amazon EC2, Google Compute)
+> Usually this is to do with the security group on the instance try allowing incoming connection to port 4321 and trying again.
+
+Unable to Connect to Host MySql or Target ElasticSearch Servers
+> Check remote connections are allowed on both if using a cloud based service check your outgoing and incoming ports.
+
+Table has not been migrated correctly or is missing data
+> Please send me more details so i can investigate the issue and improve the application, You may also provide a pull request.
+
+Unable to run startServer.sh
+> Check the shell script has a execution bit if not add one using chmod +x startServer.sh
+
+startServer.sh does not start a server correction
+> Ensure PHP 5.6+ Is installed and Composer ran successfully.
+
